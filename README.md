@@ -6,11 +6,9 @@ The CSS basic syntax assignment.
 
 In this assignment, you will be fixing the CSS syntax issues of a modern checkout and payment page for the real-life e-commerce website.
 
-To preview the app, simply click the "Go Live" button found in the VSCODE status bar. This will open your webpage in your browser.
-
-Before you begin, it is recommended to watch the [introductory video]().
-
 Please review the image of the thrilling page in /assets/images/checkout-and-payment-page.png you will receive once all CSS problems are resolved.
+
+To preview the app, simply click the "Go Live" button found in the VSCODE status bar. This will open your webpage in your browser.
 
 If you are not using VSCode you can install and run the "live-server" npm package following the list of commands:
 

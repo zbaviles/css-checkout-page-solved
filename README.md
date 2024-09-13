@@ -26,12 +26,13 @@ This assignment should prove that a student is able to:
 
 ## Standard requirements
 
-- [ ] Download the zipped project file, and extract it
-- [ ] Move the extracted folder into the project's storage and open the project in VSCode using the terminal
+- [ ] Fork the project to your github account
+- [ ] Clone the project to your computer
+- [ ] Open the project in VSCode with `code <cloned_repo_folder_name>`
 - [ ] Initialize playwright and install project packages
-  - [ ] Use npm i to install packages
-  - [ ] Use npm run browser-install to install the browser environment for testing (~131mb will be downloaded)
-  - [ ] (Windows users only) Use npm run deps-install to install playwright additional dependencies (160mb will be downloaded)
+  - [ ] Use `npm i` to install packages
+  - [ ] Use `npm run browser-install` to install the browser environment for testing (~131mb will be downloaded)
+  - [ ] (Windows users only) Use `npm run deps-install` to install playwright additional dependencies (160mb will be downloaded)
 - [ ] All the tasks of the "Specific requirements" section MUST be solved
 - [ ] **The project's file/folder structure should NOT be edited!**
 - [ ] All the tests MUST pass. Fix any errors before you submit (acceptance criteria).
@@ -39,6 +40,7 @@ This assignment should prove that a student is able to:
   - [ ] (Optional) Use `npm run test-ui` to run all the tests with GUI
   - [ ] (Optional) Use `npm run show-report` to see the latest report in the browser
 - [ ] VSCode IDE MUST have 0 problems listed
+- [ ] The code of the index.html and styles.css should pass the W3C validation (Feel free to use either the "[w3c web validator](https://marketplace.visualstudio.com/items?itemName=CelianRiboulet.webvalidator)" VSCode extension or the "[Online w3c Markup Validation Service](https://validator.w3.org/#validate_by_input)")
 - [ ] The code MUST be formatted with Prettier.
 - [ ] Push the changes to the Github repo, when finished.
 - [ ] Submit a .txt file with the Github repo url.

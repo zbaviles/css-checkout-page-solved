@@ -50,7 +50,7 @@ This assignment should prove that a student is able to:
 For the styles.css file:
 
 - [ ] Find and fix all the syntax issues in the file
-  - There are commented out hints for you to find the rCSS rules with incorrect syntax
+  - There are commented out hints for you to find the CSS rules with incorrect syntax
   - When running tests, the failed test message contains the CSS file line number of the rule that was tested.
 
 After all tests pass and the page matches the result mage 100%:

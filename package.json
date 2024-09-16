@@ -9,8 +9,7 @@
     "test": "npx playwright test",
     "test-ui": "npx playwright test --ui",
     "show-report": "npx playwright show-report",
-    "live-server": "npx live-server --port=5551",
-    "prettier-check": "npx prettier --check ./css/styles/css"
+    "live-server": "npx live-server --port=5551"
   },
   "repository": {
     "type": "git",
@@ -25,8 +24,7 @@
   "homepage": "https://github.com/devslopes/css-checkout-page-solved#readme",
   "devDependencies": {
     "@playwright/test": "^1.39.0",
-    "@types/node": "^20.8.7",
-    "prettier": "3.0.3"
+    "@types/node": "^20.8.7"
   },
   "dependencies": {
     "live-server": "^1.2.2"

@@ -23,10 +23,10 @@
   },
   "homepage": "https://github.com/devslopes/css-checkout-page-solved#readme",
   "devDependencies": {
-    "@playwright/test": "^1.39.0",
     "@types/node": "^20.8.7"
   },
   "dependencies": {
+    "@playwright/test": "^1.49.1",
     "live-server": "^1.2.2"
   }
 }

@@ -1,6 +1,10 @@
+const {
+  'liveServer.settings.port': liveServerPort,
+} = require('../.vscode/settings.json');
+
 // @ts-check
 const { test, expect } = require('@playwright/test');
-const mainPageUrl = 'http://localhost:5551/';
+const mainPageUrl = `http://localhost:${liveServerPort}/`;
 
 test.beforeEach('Run the Main Page', async ({ page }) => {
   await page.goto(mainPageUrl);

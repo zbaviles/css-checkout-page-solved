@@ -1,13 +1,18 @@
+const {
+  'liveServer.settings.port': liveServerPort,
+} = require('../.vscode/settings.json');
+
 // @ts-check
 const { test, expect } = require('@playwright/test');
-const mainPageUrl = 'http://localhost:5551/';
+const projectRootUrl = `http://localhost:${liveServerPort}/`;
+const reviewsBackgroundImagePath = `url("${projectRootUrl}assets/backgrounds/review-bg.png")`;
 
 test.beforeEach('Run the Main Page', async ({ page }) => {
-  await page.goto(mainPageUrl);
+  await page.goto(projectRootUrl);
 });
 
 test('The project development server is running', async ({ page }) => {
-  expect(page.url()).toBe(mainPageUrl);
+  expect(page.url()).toBe(projectRootUrl);
 });
 
 test('Main Page: Page Heading exists', async ({ page }) => {
@@ -210,9 +215,7 @@ test('The HTML element of class ".reviews" should have a background image url of
         .getPropertyValue('background-image');
     });
 
-  expect(reviewsBackgroundImageValue).toBe(
-    'url("http://localhost:5551/assets/backgrounds/review-bg.png")'
-  );
+  expect(reviewsBackgroundImageValue).toBe(reviewsBackgroundImagePath);
 });
 
 // footer anchor styles test
